@@ -3,13 +3,12 @@
 /lightning_logs/
 events.out.*
 /optuna_result/
+/runs/
 
 # Created by https://www.gitignore.io/api/code,linux,macos,python,windows,jupyternotebook,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=code,linux,macos,python,windows,jupyternotebook,jupyternotebooks
 
 ### Code ###
-.vscode/*
-.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -171,7 +170,6 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -223,3 +221,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/code,linux,macos,python,windows,jupyternotebook,jupyternotebooks
+config.bat
+node_modules
